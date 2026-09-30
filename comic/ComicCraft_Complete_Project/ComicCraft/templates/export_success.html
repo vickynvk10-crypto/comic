@@ -1,0 +1,8 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Export Complete — ComicCraft</title><link rel="stylesheet" href="/static/css/style.css"></head>
+<body><main class="center card">
+<h1>🎉 Comic Exported!</h1><p>Your PDF has been generated successfully.</p>
+{% if pdf_url %}<a class="primary inline" href="{{ pdf_url }}" download>Download PDF</a>{% endif %}
+<a class="secondary inline" href="/">Go Create Another Comic</a>
+</main></body></html>
